@@ -4,5 +4,7 @@
     "readme": "none",
     "name": "WebGPU API reference",
     "validation": false,
-    "excludeInternal": true
+    "excludeInternal": true,
+    //"inheritNone": true,
+    "excludeExternals": true
 }

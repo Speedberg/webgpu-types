@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "typedoc --treatWarningsAsErrors ../dist/index.d.ts"
+    "build": "typedoc --treatWarningsAsErrors --json output.json ../dist/index.d.ts"
   },
   "devDependencies": {
     "@types/dom-webcodecs": "0.1.3",
